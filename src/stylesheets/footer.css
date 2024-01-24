@@ -1,5 +1,4 @@
 .footer {
-  border: 1px solid black;
   margin-top: 8%;
   display: flex;
   flex-direction: column;
@@ -9,7 +8,6 @@
 }
 
 .footer .message {
-  border: 1px solid black;
   width: 80%;
   font-family: Inter;
   font-size: 50px;
@@ -30,7 +28,6 @@
 
 .footer-details {
   width: 85%;
-  border: 1px solid black;
   margin-bottom: 2%;
   margin-top: 2%;
   display: flex;
@@ -40,7 +37,6 @@
 }
 
 .branding {
-  border: 1px solid black;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -58,7 +54,7 @@
 }
 
 .polices {
-    width: 45%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   margin-top: 1%;
@@ -73,45 +69,46 @@
   color: #62758f;
 }
 
-.links{
-    width: 10%;
-    display: flex;
-    flex-direction: column;
-    font-family: Inter;
-font-size: 10px;
-font-weight: 500;
-line-height: 15px;
-letter-spacing: 0px;
-text-align: left;
+.links {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
-.links div{
-    margin-bottom: 3%;
+.links div {
+  margin-bottom: 3%;
 }
 
-.contacts{
-    width: 10%;
-    display: flex;
-    flex-direction: column;
-    font-family: Inter;
-font-size: 10px;
-font-weight: 500;
-line-height: 15px;
-letter-spacing: 0px;
-text-align: left;
+.contacts {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
-.contacts div{
-    margin-bottom: 3%;
+.contacts div {
+  margin-bottom: 3%;
 }
 
-.socials{
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.socials {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
 }
 
 .socials img {
-    width: 10%;
+  width: 15px;
+  padding: 5px;
 }
