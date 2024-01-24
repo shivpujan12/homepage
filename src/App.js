@@ -8,6 +8,9 @@ import courselImage from "../src/assets/Group 48109136.png";
 import roundArrow from "../src/assets/Group 48109151.png";
 import uiImage from "../src/assets/Group 48109445.png";
 import uiCourselImage from "../src/assets/Group 48109412.png";
+import Testimonials from "./pages/Testimonials.js";
+import Footer from "./pages/Footer.js";
+
 
 function App() {
   return (
@@ -34,7 +37,6 @@ function App() {
         message ={"Create rich persona attributes and images using generative AI."}
         accentColor = {"#0095E9"}
         shadowColor = {"#71C8F8"}
-        
       />
       <Mapper
         introImage={uiImage}
@@ -55,6 +57,8 @@ function App() {
         accentColor = {"#FA5F3D"}
         shadowColor = {"#E9796233"}
       />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,117 @@
+.footer {
+  border: 1px solid black;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.5%;
+}
+
+.footer .message {
+  border: 1px solid black;
+  width: 80%;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50 px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.footer .start-button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer-details {
+  width: 85%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.branding {
+  border: 1px solid black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.branding img {
+  margin-bottom: 1.5%;
+  width: 5.5%;
+}
+
+.polices {
+    width: 45%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  color: #62758f;
+}
+
+.links{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.links div{
+    margin-bottom: 3%;
+}
+
+.contacts{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.contacts div{
+    margin-bottom: 3%;
+}
+
+.socials{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socials img {
+    width: 10%;
+}
