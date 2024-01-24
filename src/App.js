@@ -10,7 +10,7 @@ import uiImage from "../src/assets/Group 48109445.png";
 import uiCourselImage from "../src/assets/Group 48109412.png";
 import Testimonials from "./pages/Testimonials.js";
 import Footer from "./pages/Footer.js";
-
+import Coursel from "./pages/Coursel.js";
 
 function App() {
   return (
@@ -58,6 +58,7 @@ function App() {
         shadowColor = {"#E9796233"}
       />
       <Testimonials />
+      <Coursel />
       <Footer />
     </div>
   );
