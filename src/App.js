@@ -2,7 +2,12 @@ import "./App.css";
 import logo from "../src/assets/logo.svg";
 import personImage from "../src/assets/image 227.png";
 import tick from "../src/assets/tick.svg";
-import Mapper from "../src/Mapper.js"
+import Mapper from "./pages/Mapper.js";
+import mapperImage from "../src/assets/Group 48108118.png";
+import courselImage from "../src/assets/Group 48109136.png";
+import roundArrow from "../src/assets/Group 48109151.png";
+import uiImage from "../src/assets/Group 48109445.png";
+import uiCourselImage from "../src/assets/Group 48109412.png";
 
 function App() {
   return (
@@ -11,7 +16,45 @@ function App() {
       <Greet />
       {/* <Greet_Mobile /> */}
       <Auth />
-      <Mapper />
+      <Mapper
+        introImage={mapperImage}
+        courselImage={courselImage}
+        roundArrow={roundArrow}
+        colorCode={"#8cd6ff"}
+        title={"Mapper"}
+        subtitle={"Explore the collaborative persona mapper"}
+        list={[
+          "Create up to 10 personas in a single view",
+          "Enrich personas with our Attributes Library",
+          "Solicit quick feedback",
+          "Leverage AI ",
+          "Assign action items",
+          "Generate persona similarity and attribute analysis",
+        ]}
+        message ={"Create rich persona attributes and images using generative AI."}
+        accentColor = {"#0095E9"}
+        shadowColor = {"#71C8F8"}
+        
+      />
+      <Mapper
+        introImage={uiImage}
+        courselImage={uiCourselImage}
+        roundArrow={roundArrow}
+        colorCode={"#FEC2B6"}
+        title = {"UI Reviews"}
+        subtitle = {"Conduct UI Reviews collaboratively in no time."}
+        list={[
+          "Upload screens or screenshots.",
+          "Click anywhere to add an issue and its severity.",
+          "Add reasons and recommendations to fix the issues.",
+          "Assign issues to individuals or teams.",
+          "Create and share UI Review reports.",
+          "Assign issues to individuals or teams."
+        ]}
+        message = {"Make each issue actionable by adding a severity to it."}
+        accentColor = {"#FA5F3D"}
+        shadowColor = {"#E9796233"}
+      />
     </div>
   );
 }
@@ -76,8 +119,8 @@ function Greet_Mobile() {
     <div className="greet-mobile">
       <div className="greet-message">
         <div>Better,</div>
-        <div style={{fontSize:"90px"}} >Faster</div>
-        <div style={{fontSize:"80px"}} >More</div>
+        <div style={{ fontSize: "90px" }}>Faster</div>
+        <div style={{ fontSize: "80px" }}>More</div>
         <div className="greet-row-two">
           <div>Acti</div>
           <div className="person-image">
@@ -157,6 +200,5 @@ function Auth_Form() {
   );
 }
 //Auth: End
-
 
 export default App;
