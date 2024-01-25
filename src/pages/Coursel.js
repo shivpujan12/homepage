@@ -45,9 +45,9 @@ function CourselSpace() {
     function scroll(action){
         console.log("I am working!");
         if(action==="left")
-        sectionRef.current.scrollLeft +=100 ;
+        sectionRef.current.scrollLeft +=150 ;
         else
-        sectionRef.current.scrollLeft -=100;
+        sectionRef.current.scrollLeft -=150;
     }
 
   return (
@@ -78,6 +78,9 @@ function CourselSpace() {
         title={"OTT (Over-the-top) Streaming Servi..."}
         subtitle={"by BuildUX"}
       />
+      <Card img={img4} title={"Martex Website"} subtitle={"by BuildUX"} />
+      <Card img={img4} title={"Martex Website"} subtitle={"by BuildUX"} />
+    
       <Card img={img4} title={"Martex Website"} subtitle={"by BuildUX"} />
     </div>
   );

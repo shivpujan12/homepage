@@ -2,6 +2,18 @@ import "../../src/stylesheets/mapper.css";
 
 
 export default function Mapper(props) {
+
+
+  const listData = document.querySelectorAll('.list-items div');
+  listData.forEach(item =>{
+    item.addEventListener("click", ()=>{
+      console.log("clicker is working!");
+      if(!item.classList.contains('mapper-active')){
+        item.classList.add('mapper-active');
+      }
+    })
+  })
+
   return (
     <div className="mapper" style={{background: props.colorCode}}>
       <div className="info-section">
