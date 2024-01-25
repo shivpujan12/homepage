@@ -42,15 +42,6 @@ function CourselSpace() {
 
     const sectionRef = useRef(null);
 
-    const drag = (e) => {
-        console.log(e.pageX)
-    }
-
-    useEffect(()=>{
-        sectionRef.current.addEventListener('mousemove',drag);
-    },[])
-
-
     function scroll(action){
         console.log("I am working!");
         if(action==="left")

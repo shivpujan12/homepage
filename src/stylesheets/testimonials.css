@@ -1,19 +1,29 @@
 .testimonials {
+  width: 100%;
   background: #ffffff;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
   justify-content: center;
   align-items: center;
   /* border: 1px solid black */
 }
 
+.testimonials .card{
+  display: "inline-block";
+}
+
 .main {
+  min-width: 200vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 90%;
   margin-top: 7%;
   margin-bottom: 7%;
+  /* border: 1px solid black; */
 }
 
 .main .profile {
@@ -29,6 +39,12 @@
     justify-content: center;
     align-items: center;
     color: #41414108;
+    background: url('../assets/Union.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: border-box;
+    overflow: hidden;
 }
 
 .arrow-keys{
