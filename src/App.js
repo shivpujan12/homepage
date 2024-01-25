@@ -6,6 +6,7 @@ import Mapper from "./pages/Mapper.js";
 import mapperImage from "../src/assets/Group 48108118.png";
 import courselImage from "../src/assets/Group 48109136.png";
 import roundArrow from "../src/assets/Group 48109151.png";
+import roundArrow2 from "../src/assets/roundArraow.png";
 import uiImage from "../src/assets/Group 48109445.png";
 import uiCourselImage from "../src/assets/Group 48109412.png";
 import Testimonials from "./pages/Testimonials.js";
@@ -21,7 +22,7 @@ function App() {
       <Auth />
       <Mapper
         introImage={mapperImage}
-        courselImage={courselImage}
+        courselImage={[uiCourselImage,courselImage,uiCourselImage,uiCourselImage,courselImage,uiCourselImage]}
         roundArrow={roundArrow}
         colorCode={"#8cd6ff"}
         title={"Mapper"}
@@ -40,8 +41,8 @@ function App() {
       />
       <Mapper
         introImage={uiImage}
-        courselImage={uiCourselImage}
-        roundArrow={roundArrow}
+        courselImage={[courselImage,uiCourselImage,courselImage,courselImage,uiCourselImage,courselImage]}
+        roundArrow={roundArrow2}
         colorCode={"#FEC2B6"}
         title = {"UI Reviews"}
         subtitle = {"Conduct UI Reviews collaboratively in no time."}

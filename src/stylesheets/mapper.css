@@ -115,6 +115,10 @@
   cursor: pointer;
 }
 
+.hide{
+  display: none;
+}
+
 .mapper-active {
   display: flex;
   background: #fafafab4;
@@ -125,6 +129,7 @@
 }
 
 .mapper-active img {
+  display: block;
 }
 
 .coursel-images {
