@@ -1,11 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import "../../src/stylesheets/mapper.css";
 import uiCourselImage from "../../src/assets/Group 48109412.png";
-import { act } from "react-dom/test-utils";
 
 export default function Mapper(props) {
   const [active, setActive] = useState(0);
-  const imgRef = useRef(null);
 
   return (
     <div className="mapper" style={{ background: props.colorCode }}>
