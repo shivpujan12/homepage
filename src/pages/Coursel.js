@@ -9,6 +9,7 @@ import img4 from "../assets/img4.svg";
 import img5 from "../assets/img5.svg";
 import arrowLeft from "../assets/arrow-left.png";
 import arrowRight from "../assets/arrow-right.png";
+import { useEffect, useRef } from "react";
 
 export default function Coursel() {
   return (
@@ -36,17 +37,30 @@ export default function Coursel() {
   );
 }
 
-function scroll(action){
-    console.log("I am working!");
-    if(action==="left")
-    document.getElementsByClassName("coursel-section")[0].scrollLeft +=100;
-    else
-    document.getElementsByClassName("coursel-section")[0].scrollLeft -=100;
-}
 
 function CourselSpace() {
+
+    const sectionRef = useRef(null);
+
+    const drag = (e) => {
+        console.log(e.pageX)
+    }
+
+    useEffect(()=>{
+        sectionRef.current.addEventListener('mousemove',drag);
+    },[])
+
+
+    function scroll(action){
+        console.log("I am working!");
+        if(action==="left")
+        sectionRef.current.scrollLeft +=100 ;
+        else
+        sectionRef.current.scrollLeft -=100;
+    }
+
   return (
-    <div className="coursel-section">
+    <div className="coursel-section" ref={sectionRef}>
 
       <div className="actions" >
         <div className="arrow-left" style={{backgroundColor: "white", borderRadius: "50%"}}

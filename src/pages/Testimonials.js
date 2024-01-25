@@ -4,15 +4,23 @@ import arrowLeft from "../assets/arrow-left.png";
 import arrowRight from "../assets/arrow-right.png";
 import momentumLogo from "../assets/momentumLogo.png";
 export default function Testimonials() {
+
   return (
     <div className="testimonials">
-      <div className="main">
+      <TestiCard />
+    </div>
+  );
+}
+
+function TestiCard(){
+  return(
+    <div className="main">
         <div className="profile">
           <div className="client-image">
             <img src={clientImage} />
           </div>
           <div className="arrow-keys">
-            <img src={arrowLeft} style={{marginRight:"5%"}} />
+            <img src={arrowLeft} style={{marginRight:"5%"}} onClick={()=>console.log('clicked')} />
             <img src={arrowRight} style={{borderRadius: "50%",boxShadow: "0 20px 10px 3px #41414108"}} />
           </div>
         </div>
@@ -31,6 +39,5 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-    </div>
-  );
+  )
 }
