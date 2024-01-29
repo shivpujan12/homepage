@@ -48,6 +48,16 @@ function Details() {
         <img src={twitter} />
         <img src={linkedIn} />
       </div>
+      <div className="socials-mobile">
+        <div className="row">
+        <img src={insta} />
+        <img src={Youtube} />
+        </div>
+        <div className="row">
+        <img src={fb} />
+        <img src={linkedIn} />
+        </div>
+      </div>
     </div>
   );
 }

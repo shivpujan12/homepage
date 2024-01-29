@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Greet />
-      {/* <Greet_Mobile /> */}
+      <Greet_Mobile />
       <Auth />
       <Mapper
         introImage={mapperImage}

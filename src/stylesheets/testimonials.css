@@ -16,7 +16,7 @@
 }
 
 .main {
-  min-width: 200vh;
+  width: 200vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -101,4 +101,30 @@
 
 .position img {
   width: 12%;
+}
+
+@media (max-width: 60em){
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .main .profile {
+    width: 100%;
+  }
+  
+  .client-image img{
+      width: 80%;
+  }
+  
+  .main .description {
+    width: 80%;
+    margin-top: 3%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 55px;
+    display: flex;
+  }
 }

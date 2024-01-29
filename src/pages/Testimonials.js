@@ -45,13 +45,13 @@ export default function Testimonials() {
     },
     {
       clientName: "Shivpujan yadav",
-      message: "fuasfjanjfnasdkjfnaksjdnf,I lkasndlksnflkasdnflksdnsdfsdfsdfasfsdfasffhe desigfskjfsndfjsndfjnskjnfjasnkdjfnjn is super nice and they alksanfasnfkjnas Thank you!",
+      message: "fuasfj anjfnasdkjfnaksjdnf,I lkasndlks nflkasdnflksdnsdfsdfs dfasf sdfasffhe desig fskjfsnd fjsndfjnskjnf jas nkdjfnjn is super nice and they alksanf asnfkjnas Thank you!",
       companyLogo: momentumLogo,
       clientImage: clientImage,
     },
     {
       clientName: "Dewansh singh",
-      message: "Ikjnasdfjnasdkfjnasdially their analyticalasdfkaldsnfkjdsnfkjasdnfkjsadnf fasdfasdfdfsdfcapabilities. anfasndfjkndaskhey are very easy to use. Thank you!",
+      message: "Ikjna sdfjnas dkfjnasdia lly their analyt icala sdfkalds nfkjdsnfkja sdnfkjsadnf fasd fasdf dfsd fcapabiliti es. anfasndf jknda skhey are very easy to use. Thank you!",
       companyLogo: momentumLogo,
       clientImage: clientImage,
     },

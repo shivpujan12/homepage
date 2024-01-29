@@ -129,7 +129,6 @@
 
 .greet-mobile{
   display: none;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -161,8 +160,8 @@
 }
 
 .greet-mobile .start-button{
-  width: 50%;
-  margin-top: 10%;
+  width: 200px;
+  margin-top: 20%;
 }
 
 /* greet mobile: end */
@@ -276,7 +275,7 @@
     display: none;
   }
   .greet-mobile{
-    display: block;
+    display: flex;
   }
 }
 
@@ -298,6 +297,8 @@
   .auth {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 18%;
   }
 
@@ -306,8 +307,13 @@
   }
 
   .auth-form{
-    background-size: cover;
+    width: 370px;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-clip: border-box;
     text-align: center;
+    margin: 0;
   }
   .auth-form label{
     text-align: start;

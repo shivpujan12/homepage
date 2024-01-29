@@ -116,3 +116,12 @@
     align-items: first baseline;
     transform: translateY(102px);
 }
+@media (max-width: 60em){
+    .coursel .title{
+        font-size: larger;
+        line-height: normal;
+    }
+    .coursel .action-buttons{
+        margin-bottom: 12%;
+    }  
+}
